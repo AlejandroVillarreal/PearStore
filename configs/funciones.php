@@ -37,7 +37,7 @@ function alert($var){
 
 function check_user($url){
     if(!isset($_SESSION['id_cliente'])){
-        redir("?p=login&return=$url");               //[Video minuto 25:25]
+        redir("?p=login&return=$url");               
 
     }else{
 
